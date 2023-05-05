@@ -1,0 +1,47 @@
+
+.projects {
+  margin-top: 80px;
+  padding: 50px 50px 50px;
+  background-color: white;
+  display: block;
+  
+
+}
+.projects h4 {
+  text-align: center;
+  color: #fc46aa;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.projects h3 {
+  font-size: 25px;
+  color: #fc46aa;
+  font-weight:350;
+}
+.projects p {
+  color: #fc46aa;
+  font-size: 15px;
+  font-weight: 150;
+}
+.WeatherApp {
+  padding-bottom: 70px;
+}
+.description {
+  padding-top: 40px;
+}
+.button {
+  margin-top: 50px;
+  color: #fc46aa;
+  padding: 30px;
+  font-size: larger;
+}
+.DictionaryApp{
+    padding-bottom: 70px;
+    text-align: right;
+}
+.TarangireLandingPage{
+    padding-bottom: 70px;
+}
+.Worldclock{
+text-align:right;
+}

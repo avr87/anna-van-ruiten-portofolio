@@ -1,0 +1,17 @@
+.navbar {
+  background-color: #fc46aa;
+}
+.nav-item {
+  font-weight: 300;
+  font-size: 15px;
+}
+.brand {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 0px 20px 0px 40px;
+}
+.navbar-toggler {
+  border:#fc46aa;
+  color: white;
+}
