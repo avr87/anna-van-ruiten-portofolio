@@ -1,0 +1,27 @@
+.contact{
+    text-align: center;
+    margin: 150px 50px 150px 50px;
+    background-color: rgba(255,255,255,0.3);
+    padding: 50px
+}
+.contact h2{
+    color:#fc46aa;
+    font-weight: 250;
+}
+.contact h4{
+    color:#fc46aa;
+    font-weight: 250;
+}
+
+.contact img{
+    background-color:#FCAE1E;
+    height:50px;
+    width: 50px;
+    
+}
+.contact img:hover{
+    background-color:#fc46aa;
+}
+.contactButton{
+    padding:1px;
+}
