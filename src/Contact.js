@@ -21,7 +21,7 @@ export default function Contact(){
                   className="email-link"
                   title="Email address"
                 >
-                  <img src={EmailLogo} />
+                  <img src={EmailLogo} alt="Logo of Email"/>
                 </a>
               </button>
               <button
@@ -33,7 +33,7 @@ export default function Contact(){
                   className="github-link"
                   title="Github-Link"
                 >
-                  <img src={GithubLogo} />
+                  <img src={GithubLogo} alt="Logo of Github" />
                 </a>
               </button>
             </div>
