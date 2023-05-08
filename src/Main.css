@@ -32,11 +32,8 @@
 .description {
   padding-top: 40px;
 }
-.button {
-  margin-top: 50px;
-  color: #fc46aa;
-  padding: 30px;
-  font-size: larger;
+.projects img{
+    border-radius: 15px;
 }
 .DictionaryApp{
     padding-bottom: 70px;
