@@ -1,17 +1,20 @@
 
 .projects {
-  margin-top: 80px;
-  padding: 50px 50px 50px;
+  
+  padding: 100px 50px 50px;
   background-color: white;
   display: block;
   
 
 }
-.projects h4 {
+.projects h2 {
   text-align: center;
   color: #fc46aa;
-  font-weight: 300;
+  font-weight: 350;
+  font-size: 35px;
   margin-bottom: 50px;
+  line-height:1.5; 
+  letter-spacing: 3px;
 }
 .projects h3 {
   font-size: 25px;

@@ -26,10 +26,10 @@ export default function Footer(){
               I have created this page to show you some of my projects and to
               introduce myself to you.{" "}
             </p>
-            This page was coded by Anna van Ruiten and open-sourced on
-            <a href="https://github.com/avr87/anna-van-ruiten-portofolio.git">
-              Github
-            </a>
+            This page was coded by Anna van Ruiten and open-sourced on{ ' '}
+             <a href="https://github.com/avr87/anna-van-ruiten-portofolio.git">
+               Github
+            </a>.
           </div>
         </div>
       </div>

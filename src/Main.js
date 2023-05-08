@@ -8,8 +8,7 @@ import "./Main.css";
 export default function Main() {
   return (
     <div className="projects">
-      <div id="projects">
-        <h4>What I have created so far</h4>
+        <h2>Projects I have created so far</h2>
         <div className="WeatherApp">
           <div className="row">
             <div className="col-6">
@@ -108,8 +107,7 @@ export default function Main() {
             </div>
           </div>
         </div>
-      
+      <div id="about"></div>
       </div>
-    </div>
   );
 }

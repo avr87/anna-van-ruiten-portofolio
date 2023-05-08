@@ -24,6 +24,7 @@ export default function Header(){
             </div>
           </div>
         </div>
+        <div id="projects"> </div>
       </header>
     );
 }

@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-      <nav className="navbar navbar-expand-lg  navbar-light fixed-top">
+      <nav className="navbar navbar-expand-sm  navbar-light fixed-top">
         <a className="navbar-brand brand" href="#app">
           Anna van Ruiten
         </a>
