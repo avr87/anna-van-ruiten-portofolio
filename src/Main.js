@@ -108,11 +108,7 @@ export default function Main() {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-around">
-          <button type="button" className="btn btn-light button">
-            Projects
-          </button>
-        </div>
+      
       </div>
     </div>
   );
