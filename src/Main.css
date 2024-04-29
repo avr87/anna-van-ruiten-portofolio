@@ -1,11 +1,7 @@
-
 .projects {
-  
   padding: 100px 50px 50px;
   background-color: white;
   display: block;
-  
-
 }
 .projects h2 {
   text-align: center;
@@ -13,13 +9,13 @@
   font-weight: 350;
   font-size: 35px;
   margin-bottom: 50px;
-  line-height:1.5; 
+  line-height: 1.5;
   letter-spacing: 3px;
 }
 .projects h3 {
   font-size: 25px;
   color: #fc46aa;
-  font-weight:350;
+  font-weight: 350;
 }
 .projects p {
   color: #fc46aa;
@@ -32,16 +28,18 @@
 .description {
   padding-top: 40px;
 }
-.projects img{
-    border-radius: 15px;
+.projects img {
+  border-radius: 15px;
 }
-.DictionaryApp{
-    padding-bottom: 70px;
-    text-align: right;
+.DictionaryApp {
+  padding-bottom: 70px;
+  text-align: right;
 }
-.TarangireLandingPage{
-    padding-bottom: 70px;
+.TarangireLandingPage {
+  padding-bottom: 70px;
 }
-.Worldclock{
-text-align:right;
+.Worldclock {
+  text-align: right;
+  padding-bottom: 70px;
 }
+
