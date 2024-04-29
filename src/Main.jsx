@@ -5,6 +5,8 @@ import Tarangire from "./Tarangirescreenshot.png";
 import WorldClock from "./WorldClockscreenshot.png";
 import NCNewsscreenshot from "./NCNewsscreenshot.png";
 import "./Main.css";
+import EnglishDictionaryscreenshot from "./EnglishDictionaryscreenshot.png";
+import Tippersscreenshot from "./Tippersscreenshot.png";
 
 export default function Main() {
   return (
@@ -52,7 +54,7 @@ export default function Main() {
               rel="noreferrer"
             >
               <img
-                src={Dictionaryscreenshot}
+                src={EnglishDictionaryscreenshot}
                 alt="Screenshot of Dictionary-app "
                 className="img-fluid"
               />
@@ -139,6 +141,41 @@ export default function Main() {
                 endpoints and employed Test-Driven Development (TDD) for
                 testing.
               </p>
+            </div>
+          </div>
+          <div className="Tipper">
+            <div className="row">
+              <div className="col-6">
+                <div className="description">
+                  <h3>
+                    Tipper
+                    <br />
+                    Cashless tipping mobile web-app
+                  </h3>
+                  <p>
+                    <strong>BackEnd: </strong>
+                    <br />
+                    JavaScript, MongoDB, ExpressJs, Jest, Husky, Supertest
+                    <br />
+                    <strong>FrontEnd: </strong>
+                    <br />
+                    Next.js, Bootstrap, Stripe, Cryptr, SCSS, Axios, Vercel
+                  </p>
+                </div>
+              </div>
+              <div className="col-6">
+                <a
+                  href="https://front-end-eight-eta-57.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={Tippersscreenshot}
+                    alt="Screenshot of the log-in page of the Tipper app"
+                    className="img-fluid"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
