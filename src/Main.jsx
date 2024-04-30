@@ -1,6 +1,5 @@
 import React from "react";
 import Weatherscreenshot from "./Weatherscreenshot.png";
-import Dictionaryscreenshot from "./Dictionaryscreenshot.png";
 import Tarangire from "./Tarangirescreenshot.png";
 import WorldClock from "./WorldClockscreenshot.png";
 import NCNewsscreenshot from "./NCNewsscreenshot.png";
