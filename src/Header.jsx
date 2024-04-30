@@ -10,14 +10,15 @@ export default function Header(){
           <div id="header" className="header">
             <div className="row">
               <div className="col">
-                <h2>Jambo👋🏼</h2>
+                <h2>Jambo!👋🏽</h2>
                 <h1>I'm Anna van Ruiten</h1>
-                <h3>Junior Front-End Developer based in London, UK</h3>
+                <h2>Junior Software Developer</h2>
+                <h3>🏡 London, UK</h3>
               </div>
               <div className="col">
                 <img
                   src={AnnavanRuiten}
-                  className="img-fluid"
+                  className="img-fluid shadow-sm"
                   alt="profile-pic"
                 />
               </div>

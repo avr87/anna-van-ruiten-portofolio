@@ -1,27 +1,29 @@
-header{
-  color: #FC46AA;
-  padding:30px;
+header {
+  color: #ff007f;
+  padding: 30px;
   margin: 150px 50px 150px 50px;
 }
 
-.header img{
-  width:270px;
-  display:block;
-  margin:0 auto;
+.header img {
+  width: 270px;
+  display: block;
+  margin: 0 auto;
   border-radius: 10px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
-.header h1{
-    font-size: 50px;
-    font-weight:350;
-    line-height:1.5;
+.header h1 {
+  font-size: 50px;
+  font-weight: 4000;
+  line-height: 1.5;
+  text-align: right;
 }
-.header h2{
-    font-size: 40px;
-    font-weight:250;
-    padding-top:20px;
+.header h2 {
+  font-size: 40px;
+  font-weight: 250;
+  text-align: right;
 }
-.header h3{
-    font-weight:200;
-    font-size:40px;
+.header h3 {
+  font-weight: 200;
+  font-size: 40px;
+  text-align: right;
 }

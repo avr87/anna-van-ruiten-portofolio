@@ -1,35 +1,43 @@
 .projects {
-  padding: 100px 50px 50px;
-  background-color: white;
-  display: block;
-}
-.projects h2 {
-  text-align: center;
-  color: #fc46aa;
-  font-weight: 350;
-  font-size: 35px;
-  margin-bottom: 50px;
-  line-height: 1.5;
-  letter-spacing: 3px;
+  padding: 80px 50px 50px;
+  background-color: #f3e7d8;
+
+  color: #fc1b97;
 }
 .projects h3 {
-  font-size: 25px;
-  color: #fc46aa;
-  font-weight: 350;
+  text-align: center;
+  /* color: #fc46aa; */
+
+  margin-bottom: 70px;
+  line-height: 1.5;
+  /* letter-spacing: 2px; */
+}
+.projects h4 {
+  /* font-size: 25px;
+  /* color: #fc46aa; */
+  /* font-weight: 400; */
+  font-weight: 300;
+  font-size: 30px;
+}
+.projects h5 {
+  font-weight: 230;
+  font-size: 20px;
 }
 .projects p {
-  color: #fc46aa;
-  font-size: 15px;
-  font-weight: 150;
+  /* color: #fc46aa; */
+  font-size: 16px;
+  font-weight: 400;
 }
 .WeatherApp {
   padding-bottom: 70px;
 }
 .description {
-  padding-top: 40px;
+  padding-top: 10px;
 }
 .projects img {
   border-radius: 15px;
+  max-width: 65%;
+  
 }
 .DictionaryApp {
   padding-bottom: 70px;

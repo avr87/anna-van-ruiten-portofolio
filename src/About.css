@@ -1,20 +1,30 @@
+.container-about{
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
 .about {
   text-align: center;
-  margin: 200px 50px;
-  color: #fc46aa;
+  margin: 100px;
+  color: black;
 }
 h3 {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 350;
   margin-bottom: 30px;
-  letter-spacing: 3px
+  /* letter-spacing: 3px */
 }
 p {
   font-weight: 300;
+  line-height: 2;
+  font-size:18px;
 }
 .link{
-    color: #fc46aa;
+    color: #FF007F;;
+    text-decoration: none;
+    font-weight:bold;
 }
 .link:hover{
-    color:white;
+    color:black;
+    font-weight: bold;
 }

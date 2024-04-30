@@ -1,27 +1,24 @@
-.contact{
-    text-align: center;
-    margin: 150px 50px 150px 50px;
-    background-color: rgba(255,255,255,0.3);
-    padding: 50px
+.container-contact {
+  max-width: 60%;
+  display: block;
+  margin: 0 auto;
 }
-.contact h2{
-    color:#fc46aa;
-    font-weight: 250;
-}
-.contact h4{
-    color:#fc46aa;
-    font-weight: 250;
+.contact {
+  text-align: center;
+  margin: 150px 50px 150px 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 50px;
+  color:#ff007f
 }
 
-.contact img{
-    background-color:#FCAE1E;
-    height:50px;
-    width: 50px;
-    
+.contact img {
+  background-color: #fcae1e;
+  height: 50px;
+  width: 50px;
 }
-.contact img:hover{
-    background-color:#fc46aa;
+.contact img:hover {
+  background-color: #ff007f;
 }
-.contactButton{
-    padding:1px;
+.contactButton {
+  padding: 1px;
 }

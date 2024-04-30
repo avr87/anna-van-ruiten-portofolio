@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #fc46aa;
+  background-color: #fc1b97;
 }
 .nav-item {
 padding-left:20px;
@@ -7,12 +7,22 @@ padding-left:20px;
   font-size: 15px;
 }
 .brand {
-  color: white;
+  color: #f3e7d8;
   font-weight: 300;
   font-size: 20px;
   padding: 0px 20px 0px 40px;
 }
 .navbar-toggler {
-  border:#fc46aa;
-  color: white;
+  border:#fc1b97;
+  color: #f3e7d8;
+}
+a.active{
+  color:#f3e7d8 !important;
+}
+.nav-link{
+  
+  font-size: 18px;
+}
+.nav-link:hover{
+  color: #f3e7d8;
 }

@@ -5,19 +5,17 @@ import GithubLogo from "./githubLogo.png";
 
 export default function Contact(){
     return (
-      <div className="container">
+      <div className="container-contact">
         <div className="contact">
           <div id="contact">
-            <h2>I'd love to hear from you!</h2>
-                <h4>Let's get to know eachother</h4>
-
-            <div className="d-flex justify-content-evenly">
+            <h3>I'd love to hear from you!</h3>
+            <div className="d-flex justify-content-evenly icons">
               <button
                 type="button"
                 className="btn btn-light button contactButton"
               >
                 <a
-                  href="mailto:annavanruiten@gmail.com"
+                  href="mailto:annavanruiten@icloud.com"
                   className="email-link"
                   title="Email address"
                 >
