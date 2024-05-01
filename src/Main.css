@@ -4,6 +4,10 @@
 
   color: #fc1b97;
 }
+.projects a{
+  color:#fc1b97;
+  text-decoration: none;
+}
 .projects h3 {
   text-align: center;
   /* color: #fc46aa; */
@@ -28,9 +32,7 @@
   font-size: 16px;
   font-weight: 400;
 }
-.WeatherApp {
-  padding-bottom: 70px;
-}
+
 .description {
   padding-top: 10px;
 }
@@ -39,21 +41,9 @@
   max-width: 65%;
   
 }
-.DictionaryApp {
-  padding-bottom: 70px;
-  text-align: right;
-}
-.TarangireLandingPage {
-  padding-bottom: 70px;
-}
-.Worldclock {
-  text-align: right;
-  padding-bottom: 70px;
-}
-.NCNews {
-  padding-bottom: 70px;
-}
-.Tipper {
-  text-align: right;
-  padding-top: 70px;
+
+.single-article-card-large{
+  background-color: #f3e7d8;
+  border-style: none;
+  margin-bottom: 70px !important;
 }

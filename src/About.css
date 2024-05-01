@@ -1,10 +1,11 @@
 .container-about{
-  max-width: 80%;
+  max-width: 60%;
   display: block;
   margin: 0 auto;
+  padding: 10px 0px;
 }
 .about {
-  text-align: center;
+  text-align: left;
   margin: 100px;
   color: black;
 }

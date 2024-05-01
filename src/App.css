@@ -1,8 +1,11 @@
 body {
-  background-color: #F3A732;
+  background-color:#f3e7d8;
 }
 h2 {
   font-size: 40px;
   font-weight: 250;
   color: #ff007f;
+}
+section{
+  background-color:#F3A732;
 }
