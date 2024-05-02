@@ -25,3 +25,30 @@ ul {
   color:#ff007f;
   font-weight: bold;
 }
+@media (max-width: 1176px) {
+ 
+ .boxes{
+  font-size: 12px !important;
+ }
+ .footer p{
+  font-size: 12px !important;
+ }
+}
+
+@media (max-width: 654px) {
+ .boxes{
+  font-size: 10px !important;
+ }
+ .footer p{
+  font-size: 10px !important;
+ }
+}
+@media (max-width: 380px) {
+.footer {
+  background-color: rgba(0, 0, 0, 0.15);
+  padding:20px 10px 20px 10px;
+}
+ul.footerlist{
+  padding-left:10px;
+}
+}

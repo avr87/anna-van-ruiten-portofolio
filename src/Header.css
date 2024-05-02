@@ -1,44 +1,87 @@
 header {
-  color:#f3e7d8;
+  color: aliceblue;
   border-radius: 15px;
+  max-width:100%;
+  margin:0;
 }
-.container-header{
-  background-color: #f3e7d8;
+header .row{
+  margin: 0px;
 }
 .header img {
-  width: 270px;
+  max-width: 70%;
+  max-height: 80%;
   display: block;
   margin: 0 auto;
   border-radius: 5px;
   /* margin-top: 30px; */
-
 }
 .header h1 {
-  font-size:70px;
+  font-size: 70px;
   font-weight: 400;
   line-height: 1.5;
-  
 }
 .header h2 {
-
+  color: #fcfcfc;
   font-size: 40px;
   font-weight: 250;
- 
 }
 .header h3 {
   font-weight: 200;
   font-size: 40px;
-  
 }
-.heading{
-  background-color: #f3e7d8;
-  color:#fc1b97;
+.heading {
+  background-color: #fc1b97;
+  color: #fcfcfc;
   padding: 150px 0px 100px 150px;
-  
-  
 }
-.pic{
- background-color:#F3A732 ;
- padding:150px 0px 100px 0px; 
+.pic {
+  background-color: #f3a732;
+  padding: 150px 0px 100px 0px;
+  max-width: 100%;
 }
-
+@media (max-width: 1024px){
+  .heading {
+    padding: 100px 0px 0px 80px;
+  }
+  .pic {
+    padding: 100px 0px 0px 0px;
+  }
+}
+@media (max-width: 827px) {
+  .heading {
+    padding: 100px 0px 0px 80px;
+  }
+  .pic {
+    padding: 100px 0px 0px 0px;
+  }
+}
+@media (max-width: 635px) {
+  .heading {
+    padding: 70px 0px 0px 20px;
+  }
+  .pic {
+    padding: 70px 0px 0px 0px;
+  }
+  .header h1 {
+  font-size: 20px !important;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.header h2 {
+  color: #fcfcfc;
+  font-size: 15px !important;
+  font-weight: 250;
+}
+.header h3 {
+  font-weight: 200;
+  font-size: 12px !important;
+}
+}
+@media (max-width: 380px) {
+   .heading {
+    padding: 50px 0px 0px 10px;
+  }
+  .pic {
+    padding: 50px 0px 0px 0px;
+  }
+}

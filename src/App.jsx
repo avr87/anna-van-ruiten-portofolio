@@ -9,13 +9,13 @@ import Footer from "./Footer";
 
 export default function App() {
   return (
-      <div className="App" id="app">
-        <Navbar />
-        <Header />
-        <Main />
-        <About />
-        <Contact />
-        <Footer />
-      </div>
+    <div className="App" id="app">
+      <Navbar />
+      <Header />
+      <Main />
+      <About />
+      <Contact />
+      <Footer />
+    </div>
   );
 }

@@ -1,41 +1,55 @@
 .navbar {
   background-color: #fc1b97;
+padding:0px;
+  overflow-x: hidden !important;
 }
 .nav-item {
-padding-left:20px;
+  padding-left: 20px;
   font-weight: 300;
   font-size: 15px;
 }
 .brand {
-  color: #f3e7d8;
+  color: #fcfcfc;
   font-weight: 300;
   font-size: 20px;
   padding: 0px 20px 0px 40px;
 }
 .navbar-toggler {
-  border:#fc1b97;
-  color: #f3e7d8;
+  border: #fc1b97;
+  color: #fcfcfc;
 }
-a.active{
-  color:#f3e7d8 !important;
+a.active {
+  color: #f3e7d8 !important;
 }
-.nav-link{
-  
+.nav-link {
+  color: #36022b;
   font-size: 18px;
 }
-.nav-link:hover{
-  color: #f3e7d8;
+.nav-link:hover {
+  color: #fcfcfc;
 }
-.nav-download{
-  display:flex;
-justify-content: center;
-padding:0px 0px 0px 20px;
+.nav-download {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 0px 20px;
 }
-.download-button{
-border-style: none;
-border-radius:5px;
-background-color:#fc1b97;
-padding: 0px 8px 0px 8px;
-
-
+.download-button {
+  border-style: none;
+  border-radius: 5px;
+  background-color: #fc1b97;
+  padding: 0px 8px 0px 8px;
+}
+@media (max-width: 654px) {
+  .nav-item {
+    padding-left: 0px;
+  }
+  .nav-link {
+    font-size: 10px;
+  }
+  .brand {
+    color: #fcfcfc;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0px 0px 0px 20px;
+  }
 }

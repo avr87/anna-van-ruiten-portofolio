@@ -1,4 +1,4 @@
-.container-about{
+.container-about {
   max-width: 60%;
   display: block;
   margin: 0 auto;
@@ -7,7 +7,7 @@
 .about {
   text-align: left;
   margin: 100px;
-  color: black;
+  color: #36022b;
 }
 h3 {
   font-size: 40px;
@@ -18,14 +18,30 @@ h3 {
 p {
   font-weight: 300;
   line-height: 2;
-  font-size:18px;
+  font-size: 18px;
 }
-.link{
-    color: #FF007F;;
-    text-decoration: none;
-    font-weight:bold;
+.link {
+  color: #ff007f;
+  text-decoration: none;
+  font-weight: bold;
 }
-.link:hover{
-    color:black;
-    font-weight: bold;
+.link:hover {
+  color: black;
+  font-weight: bold;
+}
+@media (max-width: 1176px) {
+  .about {
+    margin: 20px 0px;
+  }
+}
+@media (max-width: 430px) {
+  .container-about {
+    max-width: 80%;
+  }
+
+}
+@media (max-width: 380px) {
+ .container-about {
+    max-width: 88%;
+  }
 }
