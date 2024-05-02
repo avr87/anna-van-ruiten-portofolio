@@ -79,9 +79,9 @@ header .row{
 }
 @media (max-width: 380px) {
    .heading {
-    padding: 50px 0px 0px 10px;
+    padding: 100px 0px 0px 10px;
   }
   .pic {
-    padding: 50px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
   }
 }
