@@ -8,10 +8,10 @@ export default function Header(){
       <header>
         <div className="container-header">
           <div id="header" className="header">
-            <div className="row">
+            <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2">
               <div className="col heading">
                 <h2>Jambo!👋🏽</h2>
-                <h1>I'm Anna van Ruiten</h1>
+                <h1>Anna van Ruiten</h1>
                 <h2>Junior Software Developer</h2>
                 <h3>🏡 London, UK</h3>
               </div>
