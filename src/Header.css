@@ -3,6 +3,7 @@ header {
   border-radius: 15px;
   max-width: 100%;
   margin: 0;
+  margin-top: 60px;
 }
 header .row {
   margin: 0px;
@@ -39,7 +40,8 @@ header .row {
   padding: 130px 0px 0px 0px;
   max-width: 100%;
 }
-@media (max-width: 1069px) {.heading {
+@media (max-width: 1069px) {
+  .heading {
     padding: 140px 0px 0px 20px;
   }
   .pic {
@@ -47,7 +49,8 @@ header .row {
   }
   .header h1 {
     font-size: 70px !important;
-  }}
+  }
+}
 @media (max-width: 1024px) {
   .heading {
     padding: 140px 0px 0px 20px;
@@ -59,20 +62,27 @@ header .row {
     font-size: 60px !important;
   }
   .header h2 {
-  color: #fcfcfc;
-  font-size: 30px !important;
-  font-weight: 250;
-}
-.header h3 {
-  font-weight: 200;
-  font-size: 20px !important;
-}
+    color: #fcfcfc;
+    font-size: 30px !important;
+    font-weight: 250;
+  }
+  .header h3 {
+    font-weight: 200;
+    font-size: 20px !important;
+  }
 }
 @media (max-width: 879px) {
-   .header h1 {
+  .header h1 {
     font-size: 55px !important;
   }
-/* .header h2 {
+  .heading {
+    padding: 100px 0px 30px 30px;
+  }
+
+  .pic {
+    padding: 80px 0px 30px 0px;
+  }
+  /* .header h2 {
   color: #fcfcfc;
   font-size: 30px !important;
   font-weight: 250;
@@ -80,21 +90,22 @@ header .row {
 .header h3 {
   font-weight: 200;
   font-size: 20px !important;
-}} */}
+}} */
+}
 @media (max-width: 827px) {
   .heading {
-    padding: 140px 0px 30px 30px;
+    padding: 100px 0px 30px 30px;
   }
   .header h1 {
     font-size: 50px !important;
   }
   .pic {
-    padding: 120px 0px 30px 0px;
+    padding: 80px 0px 30px 0px;
   }
 }
 @media (max-width: 767px) {
   .heading {
-    padding: 70px 70px 20px 100px;
+    padding: 50px 70px 20px 100px;
   }
   .pic {
     padding: 20px 0px 20px 0px;
@@ -117,15 +128,26 @@ header .row {
     font-weight: 200;
     font-size: 18px !important;
   }
+  header {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 655px) {
+  header {
+    margin-top: 41px;
+  }
 }
 @media (max-width: 514px) {
   .heading {
-    padding: 80px 0px 0px 50px;
+    padding: 50px 0px 0px 50px;
+  }
+   header {
+    margin-top: 50px;
   }
 }
 @media (max-width: 450px) {
   .heading {
-    padding: 80px 0px 0px 20px;
+    padding: 50px 0px 0px 20px;
   }
   .pic {
     padding: 20px 0px 20px 0px;
@@ -134,10 +156,13 @@ header .row {
     max-width: 200px;
     max-height: 200px;
   }
+   header {
+    margin-top: 50px;
+  }
 }
 @media (max-width: 364px) {
   .heading {
-    padding: 80px 0px 20px 20px;
+    padding: 50px 0px 20px 20px;
   }
   .pic {
     padding: 20px 0px 20px 0px;
@@ -159,5 +184,8 @@ header .row {
   .header h3 {
     font-weight: 200;
     font-size: 16px !important;
+  }
+   header {
+    margin-top: 50px;
   }
 }
