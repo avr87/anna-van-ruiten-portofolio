@@ -22,7 +22,7 @@ ul {
   color: black;
 }
 .footer a:hover {
-  color:#ff007f;
+  color:aliceblue;
   font-weight: bold;
 }
 @media (max-width: 1176px) {
