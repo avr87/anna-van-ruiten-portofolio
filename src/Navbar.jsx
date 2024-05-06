@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import "./Navbar.css";
-
+import "./styling/Navbar.css";
 
 export default function Navbar() {
   const [activeLink, setActiveLink] = useState(null);
@@ -10,13 +9,10 @@ export default function Navbar() {
     setActiveLink(href);
   };
   const onButtonClick = () => {
-    // using Java Script method to get PDF file
     fetch("AnnaVanRuitenCV.pdf").then((response) => {
       response.blob().then((blob) => {
-        // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
 
-        // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
         alink.download = "AnnaVanRuitenCV.pdf";
@@ -74,8 +70,11 @@ export default function Navbar() {
               Contact
             </a>
           </li>
-          <li className="nav-item nav-download">
-            <button className="download-button nav-link" onClick={onButtonClick}>
+          <li className="nav-item ">
+            <button
+              className=" nav-link download-button "
+              onClick={onButtonClick}
+            >
               Download CV
             </button>
           </li>

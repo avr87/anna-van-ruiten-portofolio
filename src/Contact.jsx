@@ -1,8 +1,8 @@
 import React from "react";
-import "./Contact.css";
-import EmailLogo from "./emailLogo.png";
-import GithubLogo from "./githubLogo.png";
-import LinkedInLogo from "./LinkedInLogo.png";
+import "./styling/Contact.css";
+import EmailLogo from "./images/emailLogo.png";
+import GithubLogo from "./images/githubLogo.png";
+import LinkedInLogo from "./images/LinkedInLogo.png";
 
 export default function Contact() {
   return (

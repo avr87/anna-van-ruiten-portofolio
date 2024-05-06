@@ -2,6 +2,7 @@
   background-color: #fc1b97;
 padding:0px;
   overflow-x: hidden !important;
+  --bs-navbar-color: #fc1b97;
 }
 .nav-item {
   padding-left: 20px;
@@ -18,6 +19,7 @@ padding:0px;
   border: #fc1b97;
   color: #fcfcfc;
 }
+
 a.active {
   color: #f3e7d8 !important;
 }
@@ -28,16 +30,16 @@ a.active {
 .nav-link:hover {
   color: #fcfcfc;
 }
-.nav-download {
+/* .nav-download {
   display: flex;
   justify-content: center;
   padding: 0px 0px 0px 20px;
-}
+} */
 .download-button {
   border-style: none;
   border-radius: 5px;
   background-color: #fc1b97;
-  padding: 0px 8px 0px 8px;
+  /* padding: 0px 8px 0px 8px; */
 }
 @media (max-width: 654px) {
   .nav-item {
@@ -52,4 +54,12 @@ a.active {
     font-size: 15px;
     padding: 0px 0px 0px 20px;
   }
+}
+@media (max-width: 575px) {
+.nav-download {
+  display: flex;
+  justify-content: left;
+
+  
+}
 }

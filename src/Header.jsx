@@ -1,6 +1,6 @@
 import React from "react";
-import "./Header.css";
-import AnnavanRuiten from "./AnnavanRuiten.png";
+import "./styling/Header.css";
+import AnnavanRuiten from "./images/AnnavanRuiten.png";
 
 export default function Header(){
 

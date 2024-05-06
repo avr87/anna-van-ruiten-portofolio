@@ -1,11 +1,11 @@
 import React from "react";
-import Weatherscreenshot from "./Weatherscreenshot.png";
-import Tarangire from "./Tarangirescreenshot.png";
-import WorldClock from "./WorldClockscreenshot.png";
-import NCNewsscreenshot from "./NCNewsscreenshot.png";
-import "./Main.css";
-import EnglishDictionaryscreenshot from "./EnglishDictionaryscreenshot.png";
-import Tippersscreenshot from "./Tippersscreenshot.png";
+import Weatherscreenshot from "./images/Weatherscreenshot.png";
+import Tarangire from "./images/Tarangirescreenshot.png";
+import WorldClock from "./images/WorldClockscreenshot.png";
+import NCNewsscreenshot from "./images/NCNewsscreenshot.png";
+import "./styling/Main.css";
+import EnglishDictionaryscreenshot from "./images/EnglishDictionaryscreenshot.png";
+import Tippersscreenshot from "./images/Tippersscreenshot.png";
 
 export default function Main() {
   return (
