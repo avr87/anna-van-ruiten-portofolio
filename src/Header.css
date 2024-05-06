@@ -17,7 +17,7 @@ header .row {
   /* margin-top: 30px; */
 }
 .header h1 {
-  font-size: 70px !important;
+  font-size: 90px !important;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -40,9 +40,20 @@ header .row {
   padding: 130px 0px 0px 0px;
   max-width: 100%;
 }
-@media (max-width: 1069px) {
+
+@media (max-width: 1336px) {
+  .header h1 {
+    font-size: 80px !important;
+  }
+}
+@media (max-width: 1221px) {
+  .header h1 {
+    font-size: 75px !important;
+  }
+}
+@media (max-width: 1132px) {
   .heading {
-    padding: 140px 0px 0px 20px;
+    padding: 140px 0px 0px 30px;
   }
   .pic {
     padding: 120px 0px 0px 0px;
@@ -53,7 +64,7 @@ header .row {
 }
 @media (max-width: 1024px) {
   .heading {
-    padding: 140px 0px 0px 20px;
+    padding: 140px 0px 0px 30px;
   }
   .pic {
     padding: 120px 0px 0px 0px;
@@ -111,7 +122,7 @@ header .row {
     padding: 20px 0px 20px 0px;
   }
   .header h1 {
-    font-size: 50px !important;
+    font-size: 60px !important;
     font-weight: 400;
     line-height: 1.5;
   }
@@ -135,6 +146,13 @@ header .row {
 @media (max-width: 655px) {
   header {
     margin-top: 41px;
+  }
+}
+@media (max-width: 583px) {
+  .header h1 {
+    font-size: 50px !important;
+    font-weight: 400;
+    line-height: 1.5;
   }
 }
 @media (max-width: 514px) {
@@ -168,7 +186,7 @@ header .row {
     padding: 20px 0px 20px 0px;
   }
   .header h1 {
-    font-size: 40px !important;
+    font-size: 42px !important;
     font-weight: 400;
     line-height: 1.5;
   }
