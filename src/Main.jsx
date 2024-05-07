@@ -6,6 +6,7 @@ import NCNewsscreenshot from "./images/NCNewsscreenshot.png";
 import "./styling/Main.css";
 import EnglishDictionaryscreenshot from "./images/EnglishDictionaryscreenshot.png";
 import Tippersscreenshot from "./images/Tippersscreenshot.png";
+import GithubLogo from "./images/githubLogo.png";
 
 export default function Main() {
   return (
@@ -31,13 +32,27 @@ export default function Main() {
               </div>
               <div className="col">
                 <div className="description">
-                  <a
-                    href="https://front-end-eight-eta-57.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <h4>Tipper</h4>
-                  </a>
+                  <span className="project-heading">
+                    <a
+                      href="https://front-end-eight-eta-57.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h4>Tipper</h4>
+                    </a>
+                    <button
+                      type="button"
+                      className="btn btn-light button contactButton"
+                    >
+                      <a
+                        href="https://github.com/Tipper-final-project"
+                        className="github-link"
+                        title="Github-Link"
+                      >
+                        <img src={GithubLogo} alt="Logo of Github" />
+                      </a>
+                    </button>
+                  </span>
                   <em>
                     <p>Cashless tipping mobile web-app</p>
                   </em>
@@ -74,13 +89,27 @@ export default function Main() {
               </div>
               <div className="col">
                 <div className="description">
-                  <a
-                    href="https://nc-news-anna-front-end.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <h4>NC News</h4>
-                  </a>
+                  <span className="project-heading">
+                    <a
+                      href="https://nc-news-anna-front-end.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h4>NC News</h4>
+                    </a>
+                    <button
+                      type="button"
+                      className="btn btn-light button contactButton"
+                    >
+                      <a
+                        href="https://github.com/avr87/nc-news-anna-front-end"
+                        className="github-link"
+                        title="Github-Link"
+                      >
+                        <img src={GithubLogo} alt="Logo of Github" />
+                      </a>
+                    </button>
+                  </span>
                   <p>
                     <em>
                       A dynamic platform for user engagement, content rating,
@@ -120,13 +149,27 @@ export default function Main() {
               </div>
               <div className="col">
                 <div className="description">
-                  <a
-                    href="https://luminous-mousse-9fab79.netlify.app"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <h4>Weather App</h4>
-                  </a>
+                  <span className="project-heading">
+                    <a
+                      href="https://luminous-mousse-9fab79.netlify.app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h4>Weather App</h4>
+                    </a>
+                    <button
+                      type="button"
+                      className="btn btn-light button contactButton"
+                    >
+                      <a
+                        href="https://github.com/avr87/react-weather-app"
+                        className="github-link"
+                        title="Github-Link"
+                      >
+                        <img src={GithubLogo} alt="Logo of Github" />
+                      </a>
+                    </button>
+                  </span>
                   <p>VSCode, HTML5, CSS, REACT, Bootstrap, Axios, Api</p>
                 </div>
               </div>
@@ -152,13 +195,27 @@ export default function Main() {
               </div>
               <div className="col">
                 <div className="description">
-                  <a
-                    href="https://earnest-dusk-24b82f.netlify.app"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <h4>Dictionary App</h4>
-                  </a>
+                  <span className="project-heading">
+                    <a
+                      href="https://earnest-dusk-24b82f.netlify.app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h4>Dictionary App</h4>
+                    </a>
+                    <button
+                      type="button"
+                      className="btn btn-light button contactButton"
+                    >
+                      <a
+                        href="https://github.com/avr87/dictionary-app-Anna"
+                        className="github-link"
+                        title="Github-Link"
+                      >
+                        <img src={GithubLogo} alt="Logo of Github" />
+                      </a>
+                    </button>
+                  </span>
                   <p>VSCode, HTML5, CSS, REACT, Bootstrap, Axios, Api</p>
                 </div>
               </div>
@@ -183,13 +240,27 @@ export default function Main() {
               </div>
               <div className="col">
                 <div className="description">
-                  <a
-                    href="https://ephemeral-faloodeh-7a699d.netlify.app"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <h4>Tarangire Landing Page</h4>
-                  </a>
+                  <span className="project-heading">
+                    <a
+                      href="https://ephemeral-faloodeh-7a699d.netlify.app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h4>Tarangire Landing Page</h4>
+                    </a>
+                    <button
+                      type="button"
+                      className="btn btn-light button contactButton"
+                    >
+                      <a
+                        href="https://github.com/avr87/Travel-Project-Responsive-Add-On"
+                        className="github-link"
+                        title="Github-Link"
+                      >
+                        <img src={GithubLogo} alt="Logo of Github" />
+                      </a>
+                    </button>
+                  </span>
                   <p>VSCode, HTML5, CSS, Bootstrap</p>
                 </div>
               </div>
@@ -214,13 +285,27 @@ export default function Main() {
               </div>
               <div className="col">
                 <div className="description">
-                  <a
-                    href="https://bright-tarsier-f27327.netlify.app"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <h4>World Clock</h4>
-                  </a>
+                  <span className="project-heading">
+                    <a
+                      href="https://bright-tarsier-f27327.netlify.app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h4>World Clock</h4>
+                    </a>
+                    <button
+                      type="button"
+                      className="btn btn-light button contactButton"
+                    >
+                      <a
+                        href="https://github.com/avr87/timezone-clock"
+                        className="github-link"
+                        title="Github-Link"
+                      >
+                        <img src={GithubLogo} alt="Logo of Github" />
+                      </a>
+                    </button>
+                  </span>
                   <p>VSCode, HTML5, CSS, REACT, Bootstrap, Axios, Api</p>
                 </div>
               </div>

@@ -30,6 +30,7 @@
   font-weight: 230;
   font-size: 20px;
 }
+
 .projects p {
   color: #36022b;
   font-size: 16px;
@@ -38,12 +39,29 @@
 
 .description {
   padding-top: 10px;
+  
 }
 .projects img {
   border-radius: 15px;
   max-width: 65%;
 }
-
+.project-heading{
+  display: flex;
+  justify-content:space-between;
+}
+.contactButton {
+  padding: 1px;
+  
+  max-height: 36px;
+  max-width: 40px;
+  border-color: #fc1b97;
+  --bs-btn-bg: #fc1b87;
+    --bs-btn-border-color: #fc1b87;
+  -bs-btn-active-border-color: #fcae1e;
+   --bs-btn-hover-bg: #fcae1e;
+  --bs-btn-hover-border-color: #fcae1e;
+  display: inline;
+}
 .single-article-card-large {
   background-color: #fcfcfc;
   border-style: none;
